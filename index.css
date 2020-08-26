@@ -13,11 +13,17 @@
      
  }
 
- .flex-container > .footer {
-     background-color: gray;
+.footer {
+     background-color: gainsboro;
      width: 100%;
      height: 450px;
  }
+
+ .footer1 {
+    background-color:#084d6d;
+    width: 100%;
+    height: 594px;
+}
 
  .box {
     display: flex;

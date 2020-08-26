@@ -52,6 +52,39 @@
     animation: moon 50s infinite linear;
 }
 
+
+.tree, .tree-three {
+    position: absolute;
+    left: 1000px;
+    bottom: 350px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #ffffff;
+    z-index: 1;
+}
+
+.tree-three {
+    left: 800px;
+}
+
+.tree-two {
+    bottom: -40px;
+    left: -40px;
+    position: absolute;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 75px solid #e7e3e3;
+    z-index: 1;
+}
+
+.rectangle {
+    bottom: -140px;
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.822);
+  }
+
 @-webkit-keyframes moon {
     0% {
         left: -100px;
